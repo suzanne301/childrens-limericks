@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="src/style.css">
+  <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+  <script src="https://unpkg.com/axios@1.6.7/dist/axios.min.js"></script>
+  <title>Children's Limerick Generator</title>
+</head>
+
+<body>
+  <div class="container">
+    <header>
+      <h1>Children's Limerick Generator</h1>
+    </header>
+
+
+    <main>
+      <div class="form-container">
+        <form id="poem-generator-form">
+          <input type="text" placeholder="Enter a topic for the Scottish poem you'd like to generate" autofocus required
+            autocomplete="off" class="instructions" id="user-instructions" />
+          <input type="submit" class="submit-button" />
+        </form>
+        <small class="hint">i.e. clouds, carousel or gravity</small>
+      </div>
+
+      <div class="poem hidden" id="poem"></div>
+      <!--An option to share the generated poem would be helpful here! -->
+    </main>
+
+
+    <footer>This AI project was coded by <a href="https://www.linkedin.com/in/suzanne-paterson-778b492b9/"
+        target="_blank">Suzanne
+        Paterson </a> and is open-sourced on <a href="https://github.com/suzanne301/scottish-poem-generator"
+        target="_blank">GitHub</a> and is hosted on <a href="https://scottishpoemgenerator.netlify.app/"
+        target="_blank">Netlify</a>.
+    </footer>
+  </div>
+
+
+  <script src="src/index.js"></script>
+</body>
+
+</html>
