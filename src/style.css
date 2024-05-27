@@ -1,10 +1,16 @@
 body {
-  background: #496988;
-  font-family: Helvetica, Arial, sans-serif;
+  background-image: url(https://images.unsplash.com/photo-1516796181074-bf453fbfa3e6?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjJ8fGZ1bm55JTIwam9rZXMlMjBiYWNrZ3JvdW5kfGVufDB8fDB8fHww);
+  background-size: cover;
+  /* font-family: Helvetica, Arial, sans-serif; */
+
+  font-family: "Annie Use Your Telescope", cursive;
+  font-weight: 400;
+  font-style: normal;
+
 }
 
 a {
-  color: #ffaaa5;
+  color: #e01a4f;
 }
 
 header {
@@ -14,9 +20,17 @@ header {
 h1 {
   text-align: center;
   font-weight: 800;
-  font-size: 36px;
+  font-size: 60px;
   line-height: 1.5;
-  color: #fcf8f3;
+  color: #e01a4f;
+}
+
+input::placeholder {
+  font-family: "Annie Use Your Telescope",
+    cursive;
+  color: #e01a4f;
+  opacity: 0.7;
+  padding-left: 8px;
 }
 
 form {
@@ -25,8 +39,8 @@ form {
 
 footer {
   text-align: center;
-  font-size: 13px;
-  color: #fcf8f3;
+  font-size: 27px;
+  color: #2A1E2E;
 }
 
 .form-container {
@@ -39,10 +53,11 @@ footer {
 }
 
 .hint {
-  line-height: 1.5;
-  font-size: 12px;
+  color: #492F51;
+  line-height: 2.5;
+  font-size: 20px;
   margin-top: 5px;
-  opacity: 0.6;
+  opacity: 0.8;
   padding-left: 17px;
 }
 
@@ -57,13 +72,16 @@ footer {
 
 .instructions {
   padding: 16px;
-  border: 1px solid #496988;
+  border: 5px solid #53b3cb;
   width: 80%;
-  font-size: 16px;
+  font-size: 30px;
   border-radius: 50px;
   line-height: 20px;
-  color: #1c3854;
+  color: #e01a4f;
   background-color: #fcf8f3;
+  font-family: "Annie Use Your Telescope",
+    cursive;
+
 }
 
 .submit-button {
@@ -73,22 +91,26 @@ footer {
   border-radius: 50px;
   padding: 14px 24px;
   width: 150px;
-  background-color: #496988;
-  font-size: 16px;
+  background-color: #53b3cb;
+  font-size: 25px;
+  font-family: "Annie Use Your Telescope",
+    cursive;
 }
 
 .poem {
-  font-size: 16px;
+  font-size: 22px;
   background-color: #fcf8f3;
   padding: 20px;
+  color: #e01a4f;
+  margin-bottom: 40px;
   line-height: 2;
-  border-left: 3px solid #ffaaa5;
+  border-left: 3px solid #e01a4f;
   box-shadow: 0px 20px 60px rgba(49, 49, 49, 0.4);
   border-radius: 10px;
 }
 
 .poem strong {
-  color: #698474;
+  color: #53b3cb;
 }
 
 .generating {
